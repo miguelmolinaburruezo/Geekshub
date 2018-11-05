@@ -53,27 +53,41 @@
 // }else if( 5 < resultado) {
 //     console.log('Ha entrado en el else if')
 //     else{
-//         console.log('Ha entrado en el else')
+//         console.log/('Ha entrado en el else')
 //     }
 // }
 
-// var resultado = '7';
-//
-// // Si es menor que 10
-// // Si es mayor que 10 y menor que 25
-// // si es mayor que 25 pero menor que 100 incluido
-// //el resto de casos
-//
-// if (10 < resultado) {
-//     console.log('El numero es menor que 10')
-//     }
-//     else if (10 > resultado && 25 <= resultado){
-//         console.log('El numero es mayor que 10 y menor que 25')
-//
-//     } else if( 25> resultado && 100 <= resultado){
-//     console.log('El numero esta entre 25 y 100')}
-//     else{
-//         console.log('El numero es mayor que 100')
-//     }
-// }
+var resultado = 101;
 
+// Si es menor que 10
+// Si es mayor que 10 y menor que 25
+// si es mayor que 25 pero menor que 100 incluido
+//el resto de casos
+
+if (10 >= resultado) {
+    console.log('El numero es menor que 10')
+} else if (25 >= resultado){
+        console.log('El numero es mayor que 10 y menor que 25')
+} else if(100 >= resultado){
+    console.log('El numero esta entre 25 y 100')
+} else{
+    console.log('El numero es mayor que 100')
+    }
+
+
+var resultado = 'Hola';
+
+var x = resultado ? true : false ;
+console.log(x);
+
+var resultado= 'Hola';
+switch (resultado) {
+    case 'Hola' :
+        console.log(resultado)
+        break;
+    case 100:
+        console.log(typeof resultado);
+        break;
+    default:
+        console.log('Default')
+}
